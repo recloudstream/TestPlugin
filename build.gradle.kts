@@ -8,7 +8,7 @@ plugins {
 version = "1.0.0"
 
 cloudstream {
-    
+
 }
 
 android {
@@ -34,6 +34,7 @@ repositories {
     mavenCentral()
     mavenLocal()
     //maven("https://maven.pkg.github.com/recloudstream/gradle")
+//    maven("https://jitpack.io")
 }
 
 dependencies {
