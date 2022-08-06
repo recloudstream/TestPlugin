@@ -11,6 +11,10 @@ cloudstream {
 
 }
 
+repositories {
+    maven("https://jitpack.io")
+}
+
 android {
     compileSdk = 30
 
@@ -39,4 +43,7 @@ repositories {
 
 dependencies {
     apk("com.lagradost:cloudstream3:pre-release")
+    implementation(kotlin("stdlib", kotlin.coreLibrariesVersion))
+    implementation("com.github.Blatzar:NiceHttp:0.3.2")
+    implementation("org.jsoup:jsoup:1.13.1")
 }

@@ -8,7 +8,7 @@ import android.content.Context
 @CloudstreamPlugin
 class TestPlugin: Plugin() {
     override fun load(context: Context) {
-        val testProvider = TestProvider().BaseObject()
-        APIHolder.INSTANCE.allProviders.add(testProvider)
+        APIHolder.allProviders.add(TestProvider())
+        APIHolder.allProviders.add(EjaTv())
     }
 }
