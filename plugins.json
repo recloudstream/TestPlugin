@@ -1,12 +1,15 @@
 [{
   "url": "https://raw.githubusercontent.com/recloudstream/TestPlugin/master/Builds/TestPlugin.cs3",
-  "tvTypes": ["LiveStreams"],
+  "status": 1,
   "version": 1,
   "apiVersion": 1,
   "name": "Eja.tv",
+  "internalName": "Eja.tv",
   "authors": ["Blatzar"],
   "description": "Watch live TV",
   "repositoryUrl": "https://github.com/recloudstream/TestPlugin",
+  "tvTypes": ["LiveStreams"],
   "language": "en",
-  "iconUrl": ""
+  "iconUrl": "",
+  "isAdult": false
 }]
